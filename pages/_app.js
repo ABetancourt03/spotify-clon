@@ -9,6 +9,12 @@ export default function MyApp ({ Component, pageProps }) {
           font-size: 18px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+
+        body {
+          box-sizing: inherit;
+          margin: 0;
+          padding: 0;
+        }
       `}
       </style>
     </>

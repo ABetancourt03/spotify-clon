@@ -2,21 +2,18 @@ import React from 'react'
 
 import { colors } from 'styles/theme'
 
-export const Sidebar = () => {
+export const HomeContent = () => {
   return (
     <>
       <div>
-        <h2>Spotify</h2>
+        <h1>¡Buenas noches!</h1>
       </div>
 
       <style jsx>{`
         div {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          background-color: ${colors.black};
+          background-color: ${colors.mediumBlack};
           color: ${colors.white};
-          width: 250px;
+          width: 100%;
         }
       `}
       </style>
